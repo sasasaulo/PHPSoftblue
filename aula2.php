@@ -109,7 +109,12 @@
         echo "round(5.52,1,PHP_ROUND_HALF_EVEN) = ".round(5.52,1,PHP_ROUND_HALF_EVEN)."<BR/>";
         echo "round(5.52,1,PHP_ROUND_HALF_ODD) = ".round(5.52,1,PHP_ROUND_HALF_ODD)."<BR/><BR/>";
 
-        echo "Existe 2 funções para arredondar para o inteiro mais próximo, para baixo e para cima: <br/>";
+        echo "round(5.52,2,PHP_ROUND_HALF_DOWN) = ".round(5.52,2,PHP_ROUND_HALF_DOWN)."<BR/>";
+        echo "round(5.52,2,PHP_ROUND_HALF_UP) = ".round(5.52,2,PHP_ROUND_HALF_UP)."<BR/>";
+        echo "round(5.52,2,PHP_ROUND_HALF_EVEN) = ".round(5.52,2,PHP_ROUND_HALF_EVEN)."<BR/>";
+        echo "round(5.52,2,PHP_ROUND_HALF_ODD) = ".round(5.52,2,PHP_ROUND_HALF_ODD)."<BR/><BR/>";
+
+        echo "Existem 2 funções para arredondar para o inteiro mais próximo, para baixo e para cima: <br/>";
         echo "floor(5.52) = ". floor(5.52)."<br/>";
         echo "ceil(5.52) = ".ceil(5.52)."<br/><br/>";
 

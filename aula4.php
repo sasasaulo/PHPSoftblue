@@ -136,7 +136,7 @@
             echo "Não existe 'Php' no arrayExemplo".BR . BR;
 
 
-        echo "Para emparalhar o array, existe a função shuffle: ".BR;
+        echo "Para embaralhar o array, existe a função shuffle: ".BR;
         $arrayAuxiliar = $arrayExemplo;
         echo "array sem embaralhar: ".BR;
         print_r($arrayAuxiliar);

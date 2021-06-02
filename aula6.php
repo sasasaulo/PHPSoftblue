@@ -96,6 +96,14 @@
         echo readdir($dir).BR;
         closedir($dir);
 
+        echo "ffffffffffffff".BR;
+
+        $meuCaminho = "teste.txt";
+        $meuArquivo = fopen($meuCaminho, "a+");
+        fwrite($meuArquivo, "Softblue");
+        $meuArquivo = fopen($meuCaminho, "a+");
+        echo fread($meuCaminho, 10);
+
 
 
 
